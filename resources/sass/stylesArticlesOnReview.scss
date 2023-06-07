@@ -1,0 +1,37 @@
+.articlesOnReviewList{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 10px;
+
+}
+.acceptPanel{
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+    background: rgb(147 197 253 / var(--tw-bg-opacity));
+    margin: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    min-width: 300px;
+}
+.spanPanel{
+
+
+    min-width: 240px;
+
+
+    .spanName{
+        display: inline-block;
+        background-color: #efefef;
+        border-radius: 0.5rem;
+        min-width: 100%;
+        margin-bottom: 5px;
+    }
+    .spanOutput{
+
+    }
+}
+.dpsBtn button{
+    margin-bottom: 5px;
+    width: 100%;
+}
